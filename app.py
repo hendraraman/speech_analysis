@@ -20,7 +20,6 @@ st.set_page_config(layout="wide")
 st.title("Speech Analysis App")
 
 # -------------------------------------------------
-# Optional: Preprocessing for topic modeling
 # (this function is separate from pre_process_text)
 def preprocess_text(text, debug=False):
     import spacy
